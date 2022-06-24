@@ -20,9 +20,9 @@ export default function Home() {
               alt="hurlbox"
               className="absolute top-5 left-5"
             />
-            <span className="my-3 text-[2.5rem] font-[600] z-10">
+            <h1 className="my-3 text-[2.5rem] font-[600] z-10">
               Welcome to Hurlbox!
-            </span>
+            </h1>
             <span className="my-1 w-2/3 pb-10 text-center text-sm leading-8 text-carbon-500 z-10">
               We are a community, together helping thousands of people out there
               who are struggling
