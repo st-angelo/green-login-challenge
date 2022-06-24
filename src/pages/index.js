@@ -33,12 +33,9 @@ export default function Home() {
             <span className="py-4 text-[2.5rem] font-[600]">Get Started</span>
             <span className="my-1 pb-10 text-carbon-500">
               Already have an account?{' '}
-              <a
-                href="#"
-                className="font-[500] text-jade-700 no-underline outline-none hover:text-jade-800 hover:underline focus:text-jade-800 focus:underline"
-              >
+              <span className="font-[500] text-jade-700 cursor-pointer no-underline outline-none hover:text-jade-800 hover:underline focus:text-jade-800 focus:underline">
                 Sign In
-              </a>
+              </span>
             </span>
             <TextField name={'Name'} type={'text'} placeholder={'Name'} />
             <TextField name={'Email'} type={'text'} placeholder={'Email'} />
